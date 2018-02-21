@@ -63,12 +63,14 @@ li{list-style:none}
 @media only screen and (orientation: portrait) {
     #title{
         margin-top: 3.5rem;
+        font-size: 30px;
     }
     #desc{
         margin-top: 5rem;
+        font-size: 20px;
     }
     #icons{
-        margin-top: 6.5rem;
+        margin-top: 6rem;
     }
 }
 
