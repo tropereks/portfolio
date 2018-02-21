@@ -66,8 +66,9 @@ li{list-style:none}
         font-size: 30px;
     }
     #desc{
-        margin-top: 4.75rem;
-        font-size: 20px;
+        margin-top: 4.7rem;
+        font-size: 21px;
+        letter-spacing: 1.8px;
     }
     #icons{
         margin-top: 5.75rem;
