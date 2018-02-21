@@ -31,8 +31,17 @@ li{list-style:none}
     position: absolute;
     top: 0px;
     margin-top: 6.5rem;
-text-align: center;
-font-family: 'Bitter', serif;
+    text-align: center;
+    font-family: 'Bitter', serif;
+}
+
+@media only screen and (max-width: 768px) {
+    #title{
+        margin-top: 2.5rem;
+    }
+    #desc{
+        margin-top: 4rem;
+    }
 }
 
 #desc{
