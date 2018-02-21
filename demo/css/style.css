@@ -50,10 +50,10 @@ li{list-style:none}
 
 @media only screen and (orientation: portrait) {
     #title{
-        margin-top: 2.5rem;
+        margin-top: 3.5rem;
     }
     #desc{
-        margin-top: 4rem;
+        margin-top: 5rem;
     }
 }
 
