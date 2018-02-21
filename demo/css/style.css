@@ -81,6 +81,18 @@ html,body{
 	height:100%;
 	background:#111;
 }
+.icon-github-circled:hover{
+    color: #efefef;
+}
+i:hover{
+    cursor: pointer;
+    color: #efefef
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
 
 html{
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
