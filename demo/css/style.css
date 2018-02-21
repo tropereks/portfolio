@@ -35,7 +35,7 @@ li{list-style:none}
     font-family: 'Bitter', serif;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (orientation: portrait) {
     #title{
         margin-top: 2.5rem;
     }
