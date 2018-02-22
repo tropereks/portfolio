@@ -1,53 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Portfolio</title>
-  <meta name="description" content="a se fajne portfolio napisalem normalnie">
-  <meta name="author" content="Jan Zabłocki" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <link rel="stylesheet" media="screen" href="demo/css/style.css">
+  <head>
+    <meta charset="utf-8">
+    <title>Portfolio</title>
+    <meta name="description" content="a se fajne portfolio napisalem normalnie">
+    <meta name="author" content="Jan Zabłocki" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    
+    <link rel="stylesheet" media="screen" href="demo/css/style.css">
     <link rel="stylesheet" media="screen" href="css/fontello.css">
+
     <link href="https://fonts.googleapis.com/css?family=Anton|Bitter" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Quicksand:300" rel="stylesheet">
-</head>
-<body>
+  </head>
 
+  <body>
+    <main>
+      <div id="particles-js"></div> <!-- particles.js container -->
 
-<!-- particles.js container -->
-<div id="particles-js"></div>
-<div id="title">Jan Zabłocki</div>
-<div id="desc">Front-end developer</div>
-<div id="icons">
-    <a href="https://www.linkedin.com"><i class="icon-linkedin"></i></a>
-    <a href="https://www.github.com/zablockyy"<i class="icon-github-circled"></i></a>
-    <a href="https://www.github.com/zablockyy"><i class="icon-facebook"></i></a>
-    <a href="https://stackoverflow.com/users/8506787/jan-zab%c5%82ocki"><i class="icon-stackoverflow"></i></a>
-</div>
-<!-- scripts -->
-<script src="particles.js"></script>
-<script src="demo/js/app.js"></script>
+      <div id="title">Jan Zabłocki</div>
+      <div id="desc">Front-end developer</div>
 
-<!-- stats.js -->
-<script>
-  var count_particles, stats, update;
-  stats = new Stats;
-  stats.setMode(0);
-  stats.domElement.style.position = 'absolute';
-  stats.domElement.style.left = '0px';
-  stats.domElement.style.top = '0px';
-  document.body.appendChild(stats.domElement);
-  count_particles = document.querySelector('.js-count-particles');
-  update = function() {
-    stats.begin();
-    stats.end();
-    if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
-      count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
-    }
-    requestAnimationFrame(update);
-  };
-  requestAnimationFrame(update);
-</script>
+      <section id="icons">
+        <a href="https://www.linkedin.com">
+          <i class="icon-linkedin"></i>
+        </a>
+        <a href="https://www.github.com/zablockyy">
+          <i class="icon-github-circled"></i>
+        </a>
+        <a href="https://www.github.com/zablockyy">
+          <i class="icon-facebook"></i>
+        </a>
+        <a href="https://stackoverflow.com/users/8506787/jan-zab%c5%82ocki">
+          <i class="icon-stackoverflow"></i>
+        </a>
+      </section>
+    </main>
 
-</body>
+  <script src="particles.js"></script>
+  <script src="demo/js/app.js"></script>
+
+  </body>
+
 </html>
