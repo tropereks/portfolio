@@ -17,146 +17,103 @@ hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padd
 input,select{vertical-align:middle}
 li{list-style:none}
 
-
 /* =============================================================================
    My CSS
    ========================================================================== */
 
-/* ---- base ---- */
-
-#title{
-    font-size: 40px;
-    color: white;
-    width: 100%;
-    position: absolute;
-    top: 0px;
-    margin-top: 7rem;
-    text-align: center;
-    font-family: 'Bitter', serif;
-}
-
-
-
-#desc{
-    font-size: 30px;
-    color: white;
-    width: 100%;
-    position: absolute;
-    top: 0px;
-    margin-top: 8.5rem;
-    vertical-align: center;
-    text-align: center;
-    font-family: 'Quicksand', sans-serif;
-}
-
-#icons{
-    font-size: 30px;
-    color: white;
-    width: 100%;
-    letter-spacing: -10px;
-    position: absolute;
-    top: 0px;
-    margin-top: 10rem;
-    text-align: center;
-    font-family: 'Courier New', monospace;
-}
-
-@media only screen and (orientation: portrait) {
-    #title{
-        margin-top: 3.5rem;
-        font-size: 30px;
-    }
-    #desc{
-        margin-top: 4.7rem;
-        font-size: 21px;
-        letter-spacing: 1.8px;
-    }
-    #icons{
-        margin-top: 5.75rem;
-    }
-}
-
-html,body{
-	width:100%;
-    font-size: 40px;
-	height:100%;
-	background:#111;
-}
-.icon-github-circled:hover{
-    color: #efefef;
-}
-i:hover{
-    cursor: pointer;
-    color: #efefef
-}
-a{
-    text-decoration: none;
-    color: white;
-}
-
-
-html{
+html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-body{
-  font:normal 75% Arial, Helvetica, sans-serif;
+body {
+  font: normal 75% Arial, Helvetica, sans-serif;
 }
 
-canvas{
-  display:block;
-  vertical-align:bottom;
+canvas {
+  display: block;
+  vertical-align: bottom;
 }
 
+html, body {
+  width: 100%;
+  font-size: 40px;
+  height: 100%;
+  background: #111;
+}
 
-/* ---- stats.js ---- */
-
-.count-particles{
-  background: #000022;
+#title {
+  font-size: 40px;
+  color: white;
+  width: 100%;
   position: absolute;
-  top: 48px;
-  left: 0;
-  width: 80px;
-  color: #13E8E9;
-  font-size: .8em;
-  text-align: left;
-  text-indent: 4px;
-  line-height: 14px;
-  padding-bottom: 2px;
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: bold;
+  top: 0px;
+  margin-top: 7rem;
+  text-align: center;
+  font-family: 'Bitter', serif;
 }
 
-.js-count-particles{
-  font-size: 1.1em;
+#desc {
+  font-size: 30px;
+  color: white;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  margin-top: 8.5rem;
+  vertical-align: center;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
 }
 
-#stats,
-.count-particles{
-  -webkit-user-select: none;
-  margin-top: 5px;
-  margin-left: 5px;
+#icons {
+  font-size: 30px;
+  color: white;
+  width: 100%;
+  letter-spacing: -10px;
+  position: absolute;
+  top: 0px;
+  margin-top: 10rem;
+  text-align: center;
+  font-family: 'Courier New', monospace;
 }
 
-#stats{
-  border-radius: 3px 3px 0 0;
-  overflow: hidden;
+#icons i {
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-.count-particles{
-  border-radius: 0 0 3px 3px;
+#icons i:hover {
+  cursor: pointer;
+  color: #efefef
 }
 
+#icons a {
+  text-decoration: none;
+  color: white;
+}
+
+@media only screen and (orientation: portrait) {
+  #title {
+    margin-top: 3.5rem;
+    font-size: 30px;
+  }
+
+  #desc {
+    margin-top: 4.7rem;
+    font-size: 21px;
+    letter-spacing: 1.8px;
+  }
+
+  #icons {
+    margin-top: 5.75rem;
+  }
+
+}
 
 /* ---- particles.js container ---- */
 
-#particles-js{
+#particles-js {
   width: 100%;
   height: 100%;
-  background-color: #d0ccbb;
-  background-image: url('');
   background-size: cover;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
+  background: #d0ccbb url('') no-repeat 50% 50%;
 }
-
